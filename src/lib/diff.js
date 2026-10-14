@@ -76,10 +76,16 @@ const SLOPPY = Object.fromEntries(
 
 const COST = { ok: 0, typo: 0.4, wrong: 1.5, missing: 1, extra: 1 };
 
+// Alle Apostroph-Varianten → ': ‘ ’ ‛ ` ´ ʼ ′ ＇
+const APOSTROPHES = /[\u2018\u2019\u201B\u0060\u00B4\u02BC\u2032\uFF07]/g;
+
+function normalizeApostrophes(text) {
+  return text.replace(APOSTROPHES, "'");
+}
+
 function normalizeWord(raw) {
   return raw
     .toLowerCase()
-    .replace(/[‘’‛`´]/g, "'")
     .replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
 }
 
@@ -88,7 +94,7 @@ export function tokenize(text) {
   const tokens = [];
   const raws = stripMarkup(text).split(/\s+/).filter(Boolean);
   raws.forEach((original, orig) => {
-    const raw = original.replace(/^[^\p{L}\p{N}']+|[^\p{L}\p{N}']+$/gu, '');
+    const raw = normalizeApostrophes(original).replace(/^[^\p{L}\p{N}']+|[^\p{L}\p{N}']+$/gu, '');
     const norm = normalizeWord(raw);
     if (!norm) return; // reine Satzzeichen wie "–"
     const canonical = SLOPPY[norm];

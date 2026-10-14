@@ -67,3 +67,11 @@ test('Kurzformen ohne Apostroph gelten als Tippfehler', () => {
   // "its" ist ein echtes Wort und wird nicht als it's gedeutet
   assert.equal(diffAgainst('its fine', "it's fine").isExactMatch, false);
 });
+
+test('alle Apostroph-Varianten werden vereinheitlicht', () => {
+  for (const ap of ["'", '’', '‘', '`', '´', 'ʼ', '′', '＇', '‛']) {
+    const r = diffAgainst(`I don${ap}t know, it${ap}s fine`, "I don't know, it's fine");
+    assert.equal(r.isExactMatch, true, `Variante U+${ap.codePointAt(0).toString(16)}`);
+    assert.equal(r.diffTokens[1].text, "don't");
+  }
+});
