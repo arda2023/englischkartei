@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+
+# Laufzeit-Dateien der Datenbank (die eigentliche database.json wird versioniert)
+data/*.tmp
+data/database.backup.json
+data/database.corrupt-*.json
+data/database.before-restore-*.json

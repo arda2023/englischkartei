@@ -1,0 +1,17 @@
+{
+  "name": "englischkartei",
+  "productName": "Englischkartei",
+  "version": "1.0.0",
+  "description": "Aktives Englisch-Training mit Spaced Repetition – native macOS-App (Electron)",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "env -u ELECTRON_RUN_AS_NODE electron .",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "author": "Arda Sayar",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^44.7.2"
+  }
+}

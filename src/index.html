@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
+    />
+    <title>Englischkartei</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="titlebar">
+      <nav class="tabs" role="tablist">
+        <button class="tab" data-view="study" role="tab">Lernen <span class="badge" id="due-badge" hidden></span></button>
+        <button class="tab" data-view="cards" role="tab">Karten</button>
+        <button class="tab" data-view="stats" role="tab">Statistik</button>
+        <button class="tab" data-view="settings" role="tab">Einstellungen</button>
+      </nav>
+      <div class="save-status" id="save-status" aria-live="polite"></div>
+    </header>
+
+    <main>
+      <section class="view" id="view-study" data-view="study"></section>
+      <section class="view" id="view-cards" data-view="cards"></section>
+      <section class="view" id="view-stats" data-view="stats"></section>
+      <section class="view" id="view-settings" data-view="settings"></section>
+    </main>
+
+    <div id="modal-root"></div>
+    <div id="toast-root" aria-live="polite"></div>
+    <div id="tooltip" class="tooltip" hidden></div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

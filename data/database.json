@@ -1,0 +1,145 @@
+{
+  "cards": [
+    {
+      "id": "d76c85b2-2dce-4334-b7d1-de6d1eca22b1",
+      "createdAt": "2026-10-14T09:03:18.062Z",
+      "German": "Als ich am Gate ankam, stiegen die anderen Passagiere bereits ein.",
+      "Hint": "Ablauf in der Vergangenheit",
+      "English": "When I arrived at the gate, the other passengers [[were already boarding]].",
+      "Trap": "When I arrived in the Gate, the other passangers already [[stiegen ein]].",
+      "Pattern": "When + [Past Simple], [Subjekt] + [[was / were]] + [Verb-ing]",
+      "Transfer1": "When I entered the clinic, the doctor [[was already waiting]].",
+      "Transfer2": "",
+      "Rule": "Eine Handlung, die in der Vergangenheit gerade im Ablauf war, erfordert Past Continuous (were boarding), und am Gate heißt at the gate.",
+      "Alternative1": "When I got to the gate, the other passengers were already getting on the plane.",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "past-continuous",
+        "travel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T09:03:18.062Z"
+      },
+      "history": []
+    },
+    {
+      "id": "d20e1afc-303d-4e3a-8a2f-9b5b0dfa3699",
+      "createdAt": "2026-10-14T09:03:18.062Z",
+      "German": "Ich wohne seit drei Jahren in Berlin.",
+      "Hint": "Zeitraum bis jetzt",
+      "English": "I [[have been living]] in Berlin [[for]] three years.",
+      "Trap": "I [[live since]] three years in Berlin.",
+      "Pattern": "[Subjekt] + [[have / has been]] + [Verb-ing] + [[for]] + [Zeitraum]",
+      "Transfer1": "She [[has been working]] here [[for]] six months.",
+      "Transfer2": "We [[have been waiting]] [[since]] ten o'clock.",
+      "Rule": "Was in der Vergangenheit begann und bis jetzt andauert, steht im Present Perfect (Continuous) – nie im Present Simple. Zeitraum = for, Zeitpunkt = since.",
+      "Alternative1": "I have lived in Berlin for three years.",
+      "Alternative2": "I've been living in Berlin for three years.",
+      "tags": [
+        "tenses",
+        "present-perfect",
+        "for-since"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T09:03:18.062Z"
+      },
+      "history": []
+    },
+    {
+      "id": "a1df05fc-c39f-4ae9-8f04-2cd9540698c1",
+      "createdAt": "2026-10-14T09:03:18.062Z",
+      "German": "Wenn ich mehr Zeit hätte, würde ich Spanisch lernen.",
+      "Hint": "Irreale Bedingung in der Gegenwart",
+      "English": "If I [[had]] more time, I [[would learn]] Spanish.",
+      "Trap": "If I [[would have]] more time, I would learn Spanish.",
+      "Pattern": "If + [[Past Simple]], [Subjekt] + [[would]] + [Infinitiv]",
+      "Transfer1": "If she [[knew]] the answer, she [[would tell]] us.",
+      "Transfer2": "",
+      "Rule": "Im if-Satz des 2. Konditionals steht nie would, sondern das Past Simple. Das would gehört nur in den Hauptsatz.",
+      "Alternative1": "If I had more time, I'd learn Spanish.",
+      "Alternative2": "",
+      "tags": [
+        "conditionals",
+        "second-conditional"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T09:03:18.062Z"
+      },
+      "history": []
+    },
+    {
+      "id": "a6c26b0a-6a9d-4da4-90d6-f98fb0826268",
+      "createdAt": "2026-10-14T09:03:18.062Z",
+      "German": "Ich freue mich darauf, dich nächste Woche zu sehen.",
+      "Hint": "Präposition + Verb",
+      "English": "I [[am looking forward to seeing]] you next week.",
+      "Trap": "I am looking forward [[to see]] you next week.",
+      "Pattern": "[Subjekt] + look forward [[to]] + [[Verb-ing]]",
+      "Transfer1": "We [[are looking forward to hearing]] from you.",
+      "Transfer2": "",
+      "Rule": "Das to in look forward to ist eine Präposition, kein Infinitiv-to – danach folgt deshalb die -ing-Form.",
+      "Alternative1": "I'm looking forward to seeing you next week.",
+      "Alternative2": "I look forward to seeing you next week.",
+      "tags": [
+        "gerund",
+        "prepositions"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T09:03:18.062Z"
+      },
+      "history": []
+    },
+    {
+      "id": "b7e66ae3-8a5a-43d0-84f8-9dfe70893499",
+      "createdAt": "2026-10-14T09:03:18.062Z",
+      "German": "Er hat mir nicht gesagt, wo der Bahnhof ist.",
+      "Hint": "Indirekte Frage",
+      "English": "He didn't tell me [[where the station was]].",
+      "Trap": "He didn't tell me [[where is the station]].",
+      "Pattern": "[Hauptsatz] + [[Fragewort + Subjekt + Verb]]",
+      "Transfer1": "Can you tell me [[what time it is]]?",
+      "Transfer2": "",
+      "Rule": "In indirekten Fragen gilt die normale Satzstellung (Subjekt vor Verb), ohne do/does/did. Nach einem Einleitungssatz in der Vergangenheit wird die Zeit meist zurückversetzt (is → was).",
+      "Alternative1": "He didn't tell me where the station is.",
+      "Alternative2": "He did not tell me where the train station was.",
+      "tags": [
+        "word-order",
+        "indirect-questions"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T09:03:18.062Z"
+      },
+      "history": []
+    }
+  ],
+  "settings": {
+    "newPerDay": 20,
+    "autoShowHint": false
+  }
+}
