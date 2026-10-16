@@ -137,6 +137,7 @@ function rate(rating) {
     submittedAt: current.submittedAt.toISOString(),
     thinkingTimeSeconds: current.thinkingTimeSeconds,
     userInput: current.input,
+    inputMethod: current.dictated ? 'dictated' : 'typed',
     matchedTarget: current.result.matchedTarget,
     isExactMatch: current.result.isExactMatch,
     diffTokens: current.result.diffTokens,
@@ -257,6 +258,10 @@ function renderQuestion(card) {
       <div class="question-footer">
         <span class="timer" id="timer">0 s</span>
         <span class="muted small"><kbd>↵</kbd> prüfen</span>
+        <button class="btn dictation${current.dictated ? ' on' : ''}" data-action="dictated" aria-pressed="${current.dictated ? 'true' : 'false'}"
+          title="Markiert diesen Versuch im Export als gesprochen (per Diktier-App) statt getippt (⌘D)">${
+            current.dictated ? '🎤 Diktiert ✓' : '🎤 Diktiert'
+          } <kbd>⌘D</kbd></button>
         <span class="spacer"></span>
         <button class="btn" data-action="reveal" title="Ohne Antwort aufdecken (⌘↵)">Weiß nicht <kbd>⌘↵</kbd></button>
         <button class="btn primary" data-action="submit">Prüfen <kbd>↵</kbd></button>
@@ -338,7 +343,7 @@ function renderAnswer(card) {
       ${bannerHtml()}
       ${
         current.input
-          ? `<div class="answer-row"><div class="prompt-label">Deine Antwort</div>
+          ? `<div class="answer-row"><div class="prompt-label">Deine Antwort${current.dictated ? ' · <span class="dictated-badge">🎤 diktiert</span>' : ''}</div>
              <div class="diff">${renderDiff(result.diffTokens)}</div></div>`
           : ''
       }
@@ -469,6 +474,19 @@ function editCurrent() {
   });
 }
 
+/** Markiert den laufenden Versuch als diktiert/getippt; der Text im Eingabefeld bleibt erhalten. */
+function toggleDictated() {
+  if (mode !== 'question') return;
+  current.dictated = !current.dictated;
+  const input = $('#answer-input', root);
+  current.draft = input.value;
+  const btn = $('[data-action="dictated"]', root);
+  btn.classList.toggle('on', current.dictated);
+  btn.setAttribute('aria-pressed', String(current.dictated));
+  btn.firstChild.textContent = current.dictated ? '🎤 Diktiert ✓ ' : '🎤 Diktiert ';
+  input.focus();
+}
+
 /** Kopiert den Verlauf der aktuellen Karte – inkl. des gerade geprüften, noch unbewerteten Versuchs. */
 function copyCurrentHistory() {
   const card = currentCard();
@@ -480,6 +498,7 @@ function copyCurrentHistory() {
           submittedAt: current.submittedAt.toISOString(),
           thinkingTimeSeconds: current.thinkingTimeSeconds,
           userInput: current.input,
+          inputMethod: current.dictated ? 'dictated' : 'typed',
           matchedTarget: current.result.matchedTarget,
           isExactMatch: current.result.isExactMatch,
           diffTokens: current.result.diffTokens,
@@ -511,6 +530,8 @@ export function mount(el, appHooks) {
         return submit(false);
       case 'reveal':
         return submit(true);
+      case 'dictated':
+        return toggleDictated();
       case 'hint':
         current.hintShown = true;
         return render();
@@ -554,6 +575,10 @@ export function handleKey(e) {
   if (!active) return false;
   const typing = e.target.matches?.('input, textarea, select');
   if (mode === 'question') {
+    if (e.key.toLowerCase() === 'd' && e.metaKey && !e.shiftKey && !e.altKey) {
+      toggleDictated();
+      return true;
+    }
     if (e.key.toLowerCase() === 'h' && e.metaKey && e.shiftKey) {
       current.hintShown = true;
       render();

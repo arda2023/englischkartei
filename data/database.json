@@ -1,8 +1,1182 @@
 {
   "cards": [
     {
-      "id": "d76c85b2-2dce-4334-b7d1-de6d1eca22b1",
-      "createdAt": "2026-10-14T09:03:18.062Z",
+      "id": "dd638859-7b41-4707-870b-c87aa8542015",
+      "createdAt": "2026-10-14T10:46:40.816Z",
+      "German": "Ich habe seit über einem Jahr Probleme mit meiner Kinnmuskulatur.",
+      "Hint": "Dauert bis heute an",
+      "English": "I have had problems with my chin muscles [[for]] over a year.",
+      "Trap": "[[For]] over one year, I have problems with my chin muscles.",
+      "Pattern": "[have had / have been having] + [problems] + [[for]] + [Zeitspanne]",
+      "Transfer1": "I have had issues with this tooth [[for]] two weeks.",
+      "Transfer2": "He has been living abroad [[for]] six months.",
+      "Rule": "Handlungen oder Zustände, die bis heute andauern, verlangen das Present Perfect (nie einfaches Präsens) und die Zeitangabe mit for steht am Satzende.",
+      "Alternative1": "I've been having issues with my mentalis muscle for over a year.",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "present-perfect",
+        "medical"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 2,
+        "easeFactor": 2.15,
+        "repetitions": 2,
+        "lapses": 0,
+        "dueDate": "2026-10-17T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "20ed1dfd-40e7-42ca-b22a-a0916a11af29",
+          "shownAt": "2026-10-14T10:46:43.482Z",
+          "submittedAt": "2026-10-14T10:46:48.716Z",
+          "thinkingTimeSeconds": 5.2,
+          "userInput": "",
+          "matchedTarget": "I have had problems with my chin muscles for over a year.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "I"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "have"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "had"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "problems"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "with"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "my"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "chin"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "muscles"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "for"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "over"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "a"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "year"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "ab7746c0-f451-438b-8010-f0addd284f2e",
+          "shownAt": "2026-10-16T09:27:19.177Z",
+          "submittedAt": "2026-10-16T09:27:41.182Z",
+          "thinkingTimeSeconds": 22,
+          "userInput": "I have issues with my chin muscles for over one year",
+          "matchedTarget": "I have had problems with my chin muscles for over a year.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "have",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "had"
+            },
+            {
+              "text": "issues",
+              "status": "wrong",
+              "expected": "problems"
+            },
+            {
+              "text": "with",
+              "status": "ok"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "chin",
+              "status": "ok"
+            },
+            {
+              "text": "muscles",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "ok"
+            },
+            {
+              "text": "over",
+              "status": "ok"
+            },
+            {
+              "text": "one",
+              "status": "wrong",
+              "expected": "a"
+            },
+            {
+              "text": "year",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "2 Tage",
+          "stateBefore": "review"
+        }
+      ]
+    },
+    {
+      "id": "78d27443-65d1-4410-a98a-5b2a09e95fdd",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Hatten Sie schon einmal Patienten aus Deutschland, die für diesen Eingriff hergekommen sind?",
+      "Hint": "Lebenserfahrung / Frage",
+      "English": "[[Have you ever had]] patients who came here from Germany for this procedure?",
+      "Trap": "[[Did you ever had]] patients, who flew to you for this eingriff?",
+      "Pattern": "[[Have you ever had]] + [Nomen] + who + [Verb]",
+      "Transfer1": "[[Have you ever performed]] this surgery before?",
+      "Transfer2": "[[Have you ever met]] someone who had the same condition?",
+      "Rule": "Fragen nach bisheriger Lebenserfahrung erfordern Have you ever + 3. Form, niemals Did you ever had.",
+      "Alternative1": "Have you ever treated patients who traveled here from Germany for this surgery?",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "present-perfect",
+        "questions"
+      ],
+      "srs": {
+        "state": "learning",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-16T09:37:19.175Z"
+      },
+      "history": [
+        {
+          "attemptId": "0153559d-0fc0-44f3-8ed3-e23295764588",
+          "shownAt": "2026-10-14T10:47:10.034Z",
+          "submittedAt": "2026-10-14T10:49:31.237Z",
+          "thinkingTimeSeconds": 141.2,
+          "userInput": "Did you ever had patients, who traveled here from germany?",
+          "matchedTarget": "Have you ever had patients who came here from Germany for this procedure?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "Did",
+              "status": "wrong",
+              "expected": "Have"
+            },
+            {
+              "text": "you",
+              "status": "ok"
+            },
+            {
+              "text": "ever",
+              "status": "ok"
+            },
+            {
+              "text": "had",
+              "status": "ok"
+            },
+            {
+              "text": "patients",
+              "status": "ok"
+            },
+            {
+              "text": "who",
+              "status": "ok"
+            },
+            {
+              "text": "traveled",
+              "status": "wrong",
+              "expected": "came"
+            },
+            {
+              "text": "here",
+              "status": "ok"
+            },
+            {
+              "text": "from",
+              "status": "ok"
+            },
+            {
+              "text": "germany",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "for"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "this"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "procedure"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "673c7b62-79ab-4a89-a6f3-49f5fff4cfcb",
+          "shownAt": "2026-10-14T11:01:33.311Z",
+          "submittedAt": "2026-10-14T11:02:01.813Z",
+          "thinkingTimeSeconds": 28.5,
+          "userInput": "Did you had patients who traveled to you from germany?",
+          "matchedTarget": "Have you ever had patients who came here from Germany for this procedure?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "Did",
+              "status": "wrong",
+              "expected": "Have"
+            },
+            {
+              "text": "you",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "ever"
+            },
+            {
+              "text": "had",
+              "status": "ok"
+            },
+            {
+              "text": "patients",
+              "status": "ok"
+            },
+            {
+              "text": "who",
+              "status": "ok"
+            },
+            {
+              "text": "traveled",
+              "status": "extra"
+            },
+            {
+              "text": "to",
+              "status": "wrong",
+              "expected": "came"
+            },
+            {
+              "text": "you",
+              "status": "wrong",
+              "expected": "here"
+            },
+            {
+              "text": "from",
+              "status": "ok"
+            },
+            {
+              "text": "germany",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "for"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "this"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "procedure"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "learning"
+        },
+        {
+          "attemptId": "72ddcecf-7ff8-4890-a705-b40eaab981ae",
+          "shownAt": "2026-10-16T09:10:17.213Z",
+          "submittedAt": "2026-10-16T09:10:38.137Z",
+          "thinkingTimeSeconds": 20.9,
+          "userInput": "Did you ever had patients from germany, who traveled to you",
+          "matchedTarget": "Have you ever had patients who came here from Germany for this procedure?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "Did",
+              "status": "wrong",
+              "expected": "Have"
+            },
+            {
+              "text": "you",
+              "status": "ok"
+            },
+            {
+              "text": "ever",
+              "status": "ok"
+            },
+            {
+              "text": "had",
+              "status": "ok"
+            },
+            {
+              "text": "patients",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "who"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "came"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "here"
+            },
+            {
+              "text": "from",
+              "status": "ok"
+            },
+            {
+              "text": "germany",
+              "status": "ok"
+            },
+            {
+              "text": "who",
+              "status": "extra"
+            },
+            {
+              "text": "traveled",
+              "status": "wrong",
+              "expected": "for"
+            },
+            {
+              "text": "to",
+              "status": "wrong",
+              "expected": "this"
+            },
+            {
+              "text": "you",
+              "status": "wrong",
+              "expected": "procedure"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "learning"
+        },
+        {
+          "attemptId": "c480d86f-4801-41ca-a8d3-60bdf036300d",
+          "shownAt": "2026-10-16T09:26:33.292Z",
+          "submittedAt": "2026-10-16T09:26:54.149Z",
+          "thinkingTimeSeconds": 20.9,
+          "userInput": "did you ever had patients, who travelled here from germany for this procedure?",
+          "matchedTarget": "Have you ever had patients who came here from Germany for this procedure?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "did",
+              "status": "wrong",
+              "expected": "Have"
+            },
+            {
+              "text": "you",
+              "status": "ok"
+            },
+            {
+              "text": "ever",
+              "status": "ok"
+            },
+            {
+              "text": "had",
+              "status": "ok"
+            },
+            {
+              "text": "patients",
+              "status": "ok"
+            },
+            {
+              "text": "who",
+              "status": "ok"
+            },
+            {
+              "text": "travelled",
+              "status": "wrong",
+              "expected": "came"
+            },
+            {
+              "text": "here",
+              "status": "ok"
+            },
+            {
+              "text": "from",
+              "status": "ok"
+            },
+            {
+              "text": "germany",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "ok"
+            },
+            {
+              "text": "this",
+              "status": "ok"
+            },
+            {
+              "text": "procedure",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "learning"
+        }
+      ]
+    },
+    {
+      "id": "981368ea-8f72-45b5-b6ba-23fe92719740",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Mein Flug hat Verspätung, deshalb werde ich meinen Anschlussflug verpassen.",
+      "Hint": "",
+      "English": "My flight is [[delayed]], so I will miss my [[connecting flight]].",
+      "Trap": "My flight is [[late]], which is why I will miss my [[anschlussflug]].",
+      "Pattern": "[flight / train] + is + [[delayed]] + so + [Folge]",
+      "Transfer1": "Our departure was [[delayed]], so we missed our train.",
+      "Transfer2": "",
+      "Rule": "Für offizielle Verspätungen bei Verkehrsmitteln nutzt man delayed, und Anschlussflug heißt connecting flight.",
+      "Alternative1": "My flight is delayed, which means I'm going to miss my connecting flight.",
+      "Alternative2": "",
+      "tags": [
+        "vocabulary",
+        "travel",
+        "collocations"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 1,
+        "easeFactor": 2.3,
+        "repetitions": 1,
+        "lapses": 0,
+        "dueDate": "2026-10-16T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "c2e35833-1f70-4f52-af5c-40f922e744dc",
+          "shownAt": "2026-10-14T10:50:48.320Z",
+          "submittedAt": "2026-10-14T10:51:46.881Z",
+          "thinkingTimeSeconds": 58.6,
+          "userInput": "My flight is delayed, which is why I will miss my flight.",
+          "matchedTarget": "My flight is delayed, so I will miss my connecting flight.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "My",
+              "status": "ok"
+            },
+            {
+              "text": "flight",
+              "status": "ok"
+            },
+            {
+              "text": "is",
+              "status": "ok"
+            },
+            {
+              "text": "delayed",
+              "status": "ok"
+            },
+            {
+              "text": "which",
+              "status": "extra"
+            },
+            {
+              "text": "is",
+              "status": "extra"
+            },
+            {
+              "text": "why",
+              "status": "wrong",
+              "expected": "so"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "will",
+              "status": "ok"
+            },
+            {
+              "text": "miss",
+              "status": "ok"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "connecting"
+            },
+            {
+              "text": "flight",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "57644cfa-740b-4371-b545-23d25351021b",
+          "shownAt": "2026-10-16T09:08:46.249Z",
+          "submittedAt": "2026-10-16T09:09:07.931Z",
+          "thinkingTimeSeconds": 21.7,
+          "userInput": "My flight is delayed, so I will miss my connected flight",
+          "matchedTarget": "My flight is delayed, so I will miss my connecting flight.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "My",
+              "status": "ok"
+            },
+            {
+              "text": "flight",
+              "status": "ok"
+            },
+            {
+              "text": "is",
+              "status": "ok"
+            },
+            {
+              "text": "delayed",
+              "status": "ok"
+            },
+            {
+              "text": "so",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "will",
+              "status": "ok"
+            },
+            {
+              "text": "miss",
+              "status": "ok"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "connected",
+              "status": "wrong",
+              "expected": "connecting"
+            },
+            {
+              "text": "flight",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "learning"
+        }
+      ]
+    },
+    {
+      "id": "0ebc0dee-9d06-4e0e-a251-0a7b054ef45b",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich mache derzeit eine Ausbildung zum Kaufmann für Büromanagement in Deutschland.",
+      "Hint": "",
+      "English": "I am currently [[doing an apprenticeship]] in office management in Germany.",
+      "Trap": "I currently [[make my apprenticeship]] as a office manager in germany.",
+      "Pattern": "[be] + currently + [[doing an apprenticeship]] + in + [Bereich]",
+      "Transfer1": "He is [[doing an apprenticeship]] in IT support.",
+      "Transfer2": "She wants to [[do an apprenticeship]] after school.",
+      "Rule": "Ausbildungen macht man im Englischen mit do an apprenticeship, niemals mit make.",
+      "Alternative1": "I'm currently completing an apprenticeship in office management in Germany.",
+      "Alternative2": "",
+      "tags": [
+        "collocations",
+        "work",
+        "verbs"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 1,
+        "easeFactor": 2.3,
+        "repetitions": 1,
+        "lapses": 0,
+        "dueDate": "2026-10-16T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "11de6c53-8e00-453b-9029-7e24e5b0156e",
+          "shownAt": "2026-10-14T10:51:52.852Z",
+          "submittedAt": "2026-10-14T10:52:16.594Z",
+          "thinkingTimeSeconds": 23.7,
+          "userInput": "I'm doing my apprenticeship in office management in germany",
+          "matchedTarget": "I am currently doing an apprenticeship in office management in Germany.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I'm",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "currently"
+            },
+            {
+              "text": "doing",
+              "status": "ok"
+            },
+            {
+              "text": "my",
+              "status": "wrong",
+              "expected": "an"
+            },
+            {
+              "text": "apprenticeship",
+              "status": "ok"
+            },
+            {
+              "text": "in",
+              "status": "ok"
+            },
+            {
+              "text": "office",
+              "status": "ok"
+            },
+            {
+              "text": "management",
+              "status": "ok"
+            },
+            {
+              "text": "in",
+              "status": "ok"
+            },
+            {
+              "text": "germany",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "06be1ab5-e08f-4803-9e4d-228d22337b4c",
+          "shownAt": "2026-10-16T09:09:48.530Z",
+          "submittedAt": "2026-10-16T09:10:11.771Z",
+          "thinkingTimeSeconds": 23.2,
+          "userInput": "I'm doing an apprenticeship in office management in germany",
+          "matchedTarget": "I am currently doing an apprenticeship in office management in Germany.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I'm",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "currently"
+            },
+            {
+              "text": "doing",
+              "status": "ok"
+            },
+            {
+              "text": "an",
+              "status": "ok"
+            },
+            {
+              "text": "apprenticeship",
+              "status": "ok"
+            },
+            {
+              "text": "in",
+              "status": "ok"
+            },
+            {
+              "text": "office",
+              "status": "ok"
+            },
+            {
+              "text": "management",
+              "status": "ok"
+            },
+            {
+              "text": "in",
+              "status": "ok"
+            },
+            {
+              "text": "germany",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "learning"
+        }
+      ]
+    },
+    {
+      "id": "338d4292-bbda-48f9-8df6-0546043cf406",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Wie lange wird es dauern, bis die Schwellung abgeklungen ist?",
+      "Hint": "Feste Satzstruktur",
+      "English": "How long will it take [[for the swelling to go down]]?",
+      "Trap": "How long will it take, [[that the swelling will be gone]]?",
+      "Pattern": "How long will it take + [[for]] + [Sache] + [[to]] + [Verb]?",
+      "Transfer1": "How long will it take [[for the wound to heal]]?",
+      "Transfer2": "How long does it take [[for the anesthesia to wear off]]?",
+      "Rule": "Nach take folgt die Infinitivkonstruktion for something to happen, kein Nebensatz mit that.",
+      "Alternative1": "How long will it take for the swelling to subside?",
+      "Alternative2": "",
+      "tags": [
+        "sentence-structure",
+        "medical"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 2,
+        "easeFactor": 2.15,
+        "repetitions": 2,
+        "lapses": 0,
+        "dueDate": "2026-10-17T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "7fca6845-d856-427f-8107-efdee75097aa",
+          "shownAt": "2026-10-14T10:52:37.719Z",
+          "submittedAt": "2026-10-14T10:52:58.041Z",
+          "thinkingTimeSeconds": 20.3,
+          "userInput": "How long will it take for the swelling to subsdide?",
+          "matchedTarget": "How long will it take for the swelling to subside?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "How",
+              "status": "ok"
+            },
+            {
+              "text": "long",
+              "status": "ok"
+            },
+            {
+              "text": "will",
+              "status": "ok"
+            },
+            {
+              "text": "it",
+              "status": "ok"
+            },
+            {
+              "text": "take",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "swelling",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "subsdide",
+              "status": "typo",
+              "expected": "subside"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "becfc793-f0c6-4942-8c60-4d1887343b6a",
+          "shownAt": "2026-10-16T09:27:55.676Z",
+          "submittedAt": "2026-10-16T09:28:20.698Z",
+          "thinkingTimeSeconds": 25,
+          "userInput": "How long will it take the swelling to subsdide?",
+          "matchedTarget": "How long will it take for the swelling to subside?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "How",
+              "status": "ok"
+            },
+            {
+              "text": "long",
+              "status": "ok"
+            },
+            {
+              "text": "will",
+              "status": "ok"
+            },
+            {
+              "text": "it",
+              "status": "ok"
+            },
+            {
+              "text": "take",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "for"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "swelling",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "subsdide",
+              "status": "typo",
+              "expected": "subside"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "2 Tage",
+          "stateBefore": "review"
+        }
+      ]
+    },
+    {
+      "id": "17349095-c97d-47b1-be12-8768aa03dc04",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Entschuldigung, wissen Sie, wo ich hier in der Nähe eine Apotheke finden kann?",
+      "Hint": "Ortsangabe",
+      "English": "Excuse me, do you know where I can find a pharmacy [[nearby]]?",
+      "Trap": "Excuse me, do you know where I can find a pharmacy [[in the near]]?",
+      "Pattern": "[Ort / Geschäft] + [[nearby]] / [[around here]]",
+      "Transfer1": "Is there a good hospital [[nearby]]?",
+      "Transfer2": "Can I buy water [[around here]]?",
+      "Rule": "In der Nähe heißt nearby oder around here, der deutsche Ausdruck in the near existiert nicht.",
+      "Alternative1": "Excuse me, do you know where I can find a pharmacy around here?",
+      "Alternative2": "",
+      "tags": [
+        "prepositions",
+        "vocabulary",
+        "travel"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 4,
+        "easeFactor": 2.45,
+        "repetitions": 1,
+        "lapses": 0,
+        "dueDate": "2026-10-17T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "1f3520c0-2a01-47d0-91b6-5e45024c27aa",
+          "shownAt": "2026-10-14T10:55:55.890Z",
+          "submittedAt": "2026-10-14T10:56:13.873Z",
+          "thinkingTimeSeconds": 18,
+          "userInput": "Excuse me, do you know where I cand find a pharmacy nearby?",
+          "matchedTarget": "Excuse me, do you know where I can find a pharmacy nearby?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "Excuse",
+              "status": "ok"
+            },
+            {
+              "text": "me",
+              "status": "ok"
+            },
+            {
+              "text": "do",
+              "status": "ok"
+            },
+            {
+              "text": "you",
+              "status": "ok"
+            },
+            {
+              "text": "know",
+              "status": "ok"
+            },
+            {
+              "text": "where",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "cand",
+              "status": "typo",
+              "expected": "can"
+            },
+            {
+              "text": "find",
+              "status": "ok"
+            },
+            {
+              "text": "a",
+              "status": "ok"
+            },
+            {
+              "text": "pharmacy",
+              "status": "ok"
+            },
+            {
+              "text": "nearby",
+              "status": "ok"
+            }
+          ],
+          "rating": "Einfach",
+          "intervalAfterText": "4 Tage",
+          "stateBefore": "new"
+        }
+      ]
+    },
+    {
+      "id": "065770d6-d711-4df4-a711-c11ff4f49314",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich hatte meine Buchung bereits bestätigt, bevor ich im Hotel ankam.",
+      "Hint": "Vorvergangenheit",
+      "English": "I [[had already confirmed]] my booking before I arrived at the hotel.",
+      "Trap": "I [[already confirmed]] my booking, before I ankam in the hotel.",
+      "Pattern": "[Subjekt] + [[had already]] + [3. Form] + before + [Past Simple]",
+      "Transfer1": "I [[had already paid]] the bill before they sent the reminder.",
+      "Transfer2": "The doctor [[had already left]] before I arrived.",
+      "Rule": "Ereignisse, die vor einem anderen Vergangenheitszeitpunkt abgeschlossen waren, verlangen das Past Perfect (had + 3. Form).",
+      "Alternative1": "I had already checked my reservation before arriving at the hotel.",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "past-perfect"
+      ],
+      "srs": {
+        "state": "relearning",
+        "intervalDays": 1,
+        "easeFactor": 2.1,
+        "repetitions": 0,
+        "lapses": 1,
+        "dueDate": "2026-10-16T09:30:08.790Z"
+      },
+      "history": [
+        {
+          "attemptId": "0bafa789-bb95-4e8b-a8f4-3679efadb848",
+          "shownAt": "2026-10-14T10:56:17.815Z",
+          "submittedAt": "2026-10-14T10:56:46.238Z",
+          "thinkingTimeSeconds": 28.4,
+          "userInput": "I had already confirmed my booking before arriving at the hotel",
+          "matchedTarget": "I had already confirmed my booking before I arrived at the hotel.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "had",
+              "status": "ok"
+            },
+            {
+              "text": "already",
+              "status": "ok"
+            },
+            {
+              "text": "confirmed",
+              "status": "ok"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "booking",
+              "status": "ok"
+            },
+            {
+              "text": "before",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "I"
+            },
+            {
+              "text": "arriving",
+              "status": "wrong",
+              "expected": "arrived"
+            },
+            {
+              "text": "at",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "hotel",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "d2524e9f-11fa-4047-8de3-5baef64b3f54",
+          "shownAt": "2026-10-16T09:28:27.775Z",
+          "submittedAt": "2026-10-16T09:29:01.887Z",
+          "thinkingTimeSeconds": 34.1,
+          "userInput": "I bestätigt my booking before I arrived at the hotel",
+          "matchedTarget": "I had already confirmed my booking before I arrived at the hotel.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "had"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "already"
+            },
+            {
+              "text": "bestätigt",
+              "status": "wrong",
+              "expected": "confirmed"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "booking",
+              "status": "ok"
+            },
+            {
+              "text": "before",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "arrived",
+              "status": "ok"
+            },
+            {
+              "text": "at",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "hotel",
+              "status": "ok"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "review"
+        }
+      ]
+    },
+    {
+      "id": "f9adc3f4-509c-4b0e-9bd9-f285405ef7bc",
+      "createdAt": "2026-10-14T10:46:40.817Z",
       "German": "Als ich am Gate ankam, stiegen die anderen Passagiere bereits ein.",
       "Hint": "Ablauf in der Vergangenheit",
       "English": "When I arrived at the gate, the other passengers [[were already boarding]].",
@@ -19,32 +1193,1089 @@
         "travel"
       ],
       "srs": {
-        "state": "new",
+        "state": "review",
+        "intervalDays": 4,
+        "easeFactor": 2.3,
+        "repetitions": 2,
+        "lapses": 0,
+        "dueDate": "2026-10-19T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "9885d67e-0458-4563-8d65-12382be66f89",
+          "shownAt": "2026-10-14T10:56:55.649Z",
+          "submittedAt": "2026-10-14T10:57:32.997Z",
+          "thinkingTimeSeconds": 37.3,
+          "userInput": "When I arrived at the gate, the other passageners were already boarding",
+          "matchedTarget": "When I arrived at the gate, the other passengers were already boarding.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "When",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "arrived",
+              "status": "ok"
+            },
+            {
+              "text": "at",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "gate",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "other",
+              "status": "ok"
+            },
+            {
+              "text": "passageners",
+              "status": "wrong",
+              "expected": "passengers"
+            },
+            {
+              "text": "were",
+              "status": "ok"
+            },
+            {
+              "text": "already",
+              "status": "ok"
+            },
+            {
+              "text": "boarding",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "50c99337-2cab-466e-8821-47861aed8c3c",
+          "shownAt": "2026-10-16T09:29:26.846Z",
+          "submittedAt": "2026-10-16T09:29:46.135Z",
+          "thinkingTimeSeconds": 19.3,
+          "userInput": "When I arrived at the gate, the other passengers were already boarding",
+          "matchedTarget": "When I arrived at the gate, the other passengers were already boarding.",
+          "isExactMatch": true,
+          "diffTokens": [
+            {
+              "text": "When",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "arrived",
+              "status": "ok"
+            },
+            {
+              "text": "at",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "gate",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "other",
+              "status": "ok"
+            },
+            {
+              "text": "passengers",
+              "status": "ok"
+            },
+            {
+              "text": "were",
+              "status": "ok"
+            },
+            {
+              "text": "already",
+              "status": "ok"
+            },
+            {
+              "text": "boarding",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "4 Tage",
+          "stateBefore": "review"
+        }
+      ]
+    },
+    {
+      "id": "162580a5-260b-41d6-83b6-ff53d435701b",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich bin 22 Jahre alt und reise zum ersten Mal nach Südamerika.",
+      "Hint": "Feste Wendung",
+      "English": "I'm 22 years old, and it is [[my first time traveling to]] South America.",
+      "Trap": "I am 22 years old and I [[will fly for the first time to]] south america.",
+      "Pattern": "it is + [[my first time]] + [Verb-ing] + to + [Ort]",
+      "Transfer1": "It is [[my first time visiting]] this clinic.",
+      "Transfer2": "It is [[my first time traveling]] alone.",
+      "Rule": "Für das erste Mal einer Reise nutzt man idiomatisch it is my first time doing something statt will fly.",
+      "Alternative1": "I'm 22 years old, and I am traveling to South America for the first time.",
+      "Alternative2": "",
+      "tags": [
+        "idioms",
+        "travel"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 2,
+        "easeFactor": 2.15,
+        "repetitions": 2,
+        "lapses": 0,
+        "dueDate": "2026-10-17T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "81d5e95e-dea5-4b93-85dd-e34e6838bee8",
+          "shownAt": "2026-10-14T10:57:38.947Z",
+          "submittedAt": "2026-10-14T10:57:59.976Z",
+          "thinkingTimeSeconds": 21,
+          "userInput": "I'm 22 years old and I am travelling to south america for the first time",
+          "matchedTarget": "I'm 22 years old, and I am traveling to South America for the first time.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I'm",
+              "status": "ok"
+            },
+            {
+              "text": "22",
+              "status": "ok"
+            },
+            {
+              "text": "years",
+              "status": "ok"
+            },
+            {
+              "text": "old",
+              "status": "ok"
+            },
+            {
+              "text": "and",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "am",
+              "status": "ok"
+            },
+            {
+              "text": "travelling",
+              "status": "typo",
+              "expected": "traveling"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "south",
+              "status": "ok"
+            },
+            {
+              "text": "america",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "first",
+              "status": "ok"
+            },
+            {
+              "text": "time",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "723b3387-d4b7-4b06-9254-0e98012c3e67",
+          "shownAt": "2026-10-16T09:29:48.558Z",
+          "submittedAt": "2026-10-16T09:30:14.718Z",
+          "thinkingTimeSeconds": 26.2,
+          "userInput": "I am 22 years old and I am travelling to soath america for the first time",
+          "matchedTarget": "I'm 22 years old, and I am traveling to South America for the first time.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "am",
+              "status": "ok"
+            },
+            {
+              "text": "22",
+              "status": "ok"
+            },
+            {
+              "text": "years",
+              "status": "ok"
+            },
+            {
+              "text": "old",
+              "status": "ok"
+            },
+            {
+              "text": "and",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "am",
+              "status": "ok"
+            },
+            {
+              "text": "travelling",
+              "status": "typo",
+              "expected": "traveling"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "soath",
+              "status": "typo",
+              "expected": "South"
+            },
+            {
+              "text": "america",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "first",
+              "status": "ok"
+            },
+            {
+              "text": "time",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "2 Tage",
+          "stateBefore": "review"
+        }
+      ]
+    },
+    {
+      "id": "9b717efc-a810-459c-8f56-b240f75d783a",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Bis nächste Woche werde ich alle notwendigen Unterlagen für das Krankenhaus ausgefüllt haben.",
+      "Hint": "Frist / Vollendete Zukunft",
+      "English": "[[By]] next week, I [[will have filled out]] all the required documents.",
+      "Trap": "[[Until]] the next week, I [[will filled out]] all the documents for the hospital.",
+      "Pattern": "[[By]] + [Zeitpunkt], [Subjekt] + [[will have]] + [3. Form]",
+      "Transfer1": "[[By]] tomorrow, I [[will have signed]] the contract.",
+      "Transfer2": "[[By]] Friday, they [[will have reviewed]] my medical records.",
+      "Rule": "Fristen (bis spätestens) heißen by (nie until), und die vollendete Zukunft verlangt will have + 3. Form.",
+      "Alternative1": "By next week, I will have completed all the hospital paperwork.",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "future-perfect",
+        "prepositions"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 1,
+        "easeFactor": 2.3,
+        "repetitions": 1,
+        "lapses": 0,
+        "dueDate": "2026-10-16T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "32689463-7772-4949-9048-86dcc96126da",
+          "shownAt": "2026-10-14T10:58:03.464Z",
+          "submittedAt": "2026-10-14T10:58:48.385Z",
+          "thinkingTimeSeconds": 44.9,
+          "userInput": "By the next week, I need to filled out all the necessary documents for the clinic.",
+          "matchedTarget": "By next week, I will have filled out all the required documents.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "By",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "extra"
+            },
+            {
+              "text": "next",
+              "status": "ok"
+            },
+            {
+              "text": "week",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "need",
+              "status": "wrong",
+              "expected": "will"
+            },
+            {
+              "text": "to",
+              "status": "wrong",
+              "expected": "have"
+            },
+            {
+              "text": "filled",
+              "status": "ok"
+            },
+            {
+              "text": "out",
+              "status": "ok"
+            },
+            {
+              "text": "all",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "necessary",
+              "status": "wrong",
+              "expected": "required"
+            },
+            {
+              "text": "documents",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "extra"
+            },
+            {
+              "text": "the",
+              "status": "extra"
+            },
+            {
+              "text": "clinic",
+              "status": "extra"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "952e7f8d-7d0a-480f-8774-c1e4505d7b37",
+          "shownAt": "2026-10-14T11:00:53.578Z",
+          "submittedAt": "2026-10-14T11:01:15.085Z",
+          "thinkingTimeSeconds": 21.5,
+          "userInput": "By next week, I will have filled out all the required documents for the clinic",
+          "matchedTarget": "By next week, I will have filled out all the required documents.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "By",
+              "status": "ok"
+            },
+            {
+              "text": "next",
+              "status": "ok"
+            },
+            {
+              "text": "week",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "will",
+              "status": "ok"
+            },
+            {
+              "text": "have",
+              "status": "ok"
+            },
+            {
+              "text": "filled",
+              "status": "ok"
+            },
+            {
+              "text": "out",
+              "status": "ok"
+            },
+            {
+              "text": "all",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "required",
+              "status": "ok"
+            },
+            {
+              "text": "documents",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "extra"
+            },
+            {
+              "text": "the",
+              "status": "extra"
+            },
+            {
+              "text": "clinic",
+              "status": "extra"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "learning"
+        },
+        {
+          "attemptId": "236321df-3ecb-42d5-a24a-f8a74f6c52fb",
+          "shownAt": "2026-10-16T09:25:22.216Z",
+          "submittedAt": "2026-10-16T09:25:48.517Z",
+          "thinkingTimeSeconds": 26.3,
+          "userInput": "By next week, I will have filled out all the required documents for the clinic",
+          "matchedTarget": "By next week, I will have filled out all the required documents.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "By",
+              "status": "ok"
+            },
+            {
+              "text": "next",
+              "status": "ok"
+            },
+            {
+              "text": "week",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "will",
+              "status": "ok"
+            },
+            {
+              "text": "have",
+              "status": "ok"
+            },
+            {
+              "text": "filled",
+              "status": "ok"
+            },
+            {
+              "text": "out",
+              "status": "ok"
+            },
+            {
+              "text": "all",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "required",
+              "status": "ok"
+            },
+            {
+              "text": "documents",
+              "status": "ok"
+            },
+            {
+              "text": "for",
+              "status": "extra"
+            },
+            {
+              "text": "the",
+              "status": "extra"
+            },
+            {
+              "text": "clinic",
+              "status": "extra"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "learning"
+        }
+      ]
+    },
+    {
+      "id": "f8d49dac-967a-46f7-bee0-5ca6f1a5bd8b",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Sobald die Narbe verheilt ist, werde ich wieder normal sprechen können.",
+      "Hint": "Bedingung / Zeitfolge",
+      "English": "[[Once the scar has healed]], I will be able to speak normally again.",
+      "Trap": "[[When the scars are healed]], I will finally be able to speak again.",
+      "Pattern": "[[Once]] + [Sache] + [[has]] + [3. Form], [Subjekt] + will + [Verb]",
+      "Transfer1": "[[Once the swelling has gone down]], you can take off the tape.",
+      "Transfer2": "",
+      "Rule": "Für sobald etwas abgeschlossen ist nutzt man once + Present Perfect, und nach einer OP spricht man meist von the scar (Singular).",
+      "Alternative1": "As soon as the scar heals, I'll be able to speak normally again.",
+      "Alternative2": "",
+      "tags": [
+        "conjunctions",
+        "medical"
+      ],
+      "srs": {
+        "state": "learning",
         "intervalDays": 0,
         "easeFactor": 2.3,
         "repetitions": 0,
         "lapses": 0,
-        "dueDate": "2026-10-14T09:03:18.062Z"
+        "dueDate": "2026-10-16T09:35:22.212Z"
       },
-      "history": []
+      "history": [
+        {
+          "attemptId": "9635bca3-7803-460a-bb60-6d07798d3d13",
+          "shownAt": "2026-10-14T10:59:18.746Z",
+          "submittedAt": "2026-10-14T10:59:40.667Z",
+          "thinkingTimeSeconds": 21.9,
+          "userInput": "As soon as the scar is healed, I'll be able to speak properly again",
+          "matchedTarget": "As soon as the scar heals, I'll be able to speak normally again.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "As",
+              "status": "ok"
+            },
+            {
+              "text": "soon",
+              "status": "ok"
+            },
+            {
+              "text": "as",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "scar",
+              "status": "ok"
+            },
+            {
+              "text": "is",
+              "status": "extra"
+            },
+            {
+              "text": "healed",
+              "status": "wrong",
+              "expected": "heals"
+            },
+            {
+              "text": "I'll",
+              "status": "ok"
+            },
+            {
+              "text": "be",
+              "status": "ok"
+            },
+            {
+              "text": "able",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "speak",
+              "status": "ok"
+            },
+            {
+              "text": "properly",
+              "status": "wrong",
+              "expected": "normally"
+            },
+            {
+              "text": "again",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "a33efb1a-fed8-4fbe-a996-700fa3078b60",
+          "shownAt": "2026-10-16T09:10:50.130Z",
+          "submittedAt": "2026-10-16T09:11:12.027Z",
+          "thinkingTimeSeconds": 21.9,
+          "userInput": "as soon as the scar is healed, I'll be able to speak normally again",
+          "matchedTarget": "As soon as the scar heals, I'll be able to speak normally again.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "as",
+              "status": "ok"
+            },
+            {
+              "text": "soon",
+              "status": "ok"
+            },
+            {
+              "text": "as",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "scar",
+              "status": "ok"
+            },
+            {
+              "text": "is",
+              "status": "extra"
+            },
+            {
+              "text": "healed",
+              "status": "wrong",
+              "expected": "heals"
+            },
+            {
+              "text": "I'll",
+              "status": "ok"
+            },
+            {
+              "text": "be",
+              "status": "ok"
+            },
+            {
+              "text": "able",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "speak",
+              "status": "ok"
+            },
+            {
+              "text": "normally",
+              "status": "ok"
+            },
+            {
+              "text": "again",
+              "status": "ok"
+            }
+          ],
+          "rating": "Schwer",
+          "intervalAfterText": "<10 Min.",
+          "stateBefore": "learning"
+        }
+      ]
     },
     {
-      "id": "d20e1afc-303d-4e3a-8a2f-9b5b0dfa3699",
-      "createdAt": "2026-10-14T09:03:18.062Z",
-      "German": "Ich wohne seit drei Jahren in Berlin.",
-      "Hint": "Zeitraum bis jetzt",
-      "English": "I [[have been living]] in Berlin [[for]] three years.",
-      "Trap": "I [[live since]] three years in Berlin.",
-      "Pattern": "[Subjekt] + [[have / has been]] + [Verb-ing] + [[for]] + [Zeitraum]",
-      "Transfer1": "She [[has been working]] here [[for]] six months.",
-      "Transfer2": "We [[have been waiting]] [[since]] ten o'clock.",
-      "Rule": "Was in der Vergangenheit begann und bis jetzt andauert, steht im Present Perfect (Continuous) – nie im Present Simple. Zeitraum = for, Zeitpunkt = since.",
-      "Alternative1": "I have lived in Berlin for three years.",
-      "Alternative2": "I've been living in Berlin for three years.",
+      "id": "f4eff38b-a69a-4ae4-8da2-c516fbaf1029",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Gestern habe ich mit der Klinik telefoniert, um die Video-Konsultation zu verschieben.",
+      "Hint": "",
+      "English": "Yesterday I called the clinic to [[reschedule]] my video consultation.",
+      "Trap": "Yesterday I called the clinic to [[verschieben]] my video consultation.",
+      "Pattern": "to + [[reschedule]] + [Termin / appointment]",
+      "Transfer1": "I need to [[reschedule]] my surgery date.",
+      "Transfer2": "Can we [[reschedule]] our consultation to next Monday?",
+      "Rule": "Einen festen Termin zeitlich verlegen heißt im Englischen to reschedule.",
+      "Alternative1": "Yesterday I called the clinic to postpone my video consultation.",
+      "Alternative2": "",
       "tags": [
-        "tenses",
-        "present-perfect",
-        "for-since"
+        "vocabulary",
+        "medical",
+        "appointments"
+      ],
+      "srs": {
+        "state": "review",
+        "intervalDays": 1,
+        "easeFactor": 2.3,
+        "repetitions": 1,
+        "lapses": 0,
+        "dueDate": "2026-10-16T22:00:00.000Z"
+      },
+      "history": [
+        {
+          "attemptId": "e96e3752-0e3b-4a7a-8b8a-d6201bb8f934",
+          "shownAt": "2026-10-14T10:59:50.313Z",
+          "submittedAt": "2026-10-14T11:00:36.336Z",
+          "thinkingTimeSeconds": 46,
+          "userInput": "I spoked with the clinic yesterday to move my consultation to another day",
+          "matchedTarget": "Yesterday I called the clinic to reschedule my video consultation.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "Yesterday"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "spoked",
+              "status": "extra"
+            },
+            {
+              "text": "with",
+              "status": "wrong",
+              "expected": "called"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "clinic",
+              "status": "ok"
+            },
+            {
+              "text": "yesterday",
+              "status": "extra"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "move",
+              "status": "wrong",
+              "expected": "reschedule"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "video"
+            },
+            {
+              "text": "consultation",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "extra"
+            },
+            {
+              "text": "another",
+              "status": "extra"
+            },
+            {
+              "text": "day",
+              "status": "extra"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "new"
+        },
+        {
+          "attemptId": "a3a5f57a-7095-4671-aa44-fcd268cf1372",
+          "shownAt": "2026-10-16T09:09:14.315Z",
+          "submittedAt": "2026-10-16T09:09:44.727Z",
+          "thinkingTimeSeconds": 30.4,
+          "userInput": "Yesterday, I called the clinic to verschieben my video consultation",
+          "matchedTarget": "Yesterday I called the clinic to reschedule my video consultation.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "Yesterday",
+              "status": "ok"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "called",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "clinic",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "verschieben",
+              "status": "wrong",
+              "expected": "reschedule"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "video",
+              "status": "ok"
+            },
+            {
+              "text": "consultation",
+              "status": "ok"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "learning"
+        },
+        {
+          "attemptId": "37e7e237-7f3c-4a9b-ae6f-fc8ec51b5e2f",
+          "shownAt": "2026-10-16T09:25:56.928Z",
+          "submittedAt": "2026-10-16T09:26:26.224Z",
+          "thinkingTimeSeconds": 29.3,
+          "userInput": "I called the clinic yesterday to reschedule my video consultation",
+          "matchedTarget": "Yesterday I called the clinic to reschedule my video consultation.",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "Yesterday"
+            },
+            {
+              "text": "I",
+              "status": "ok"
+            },
+            {
+              "text": "called",
+              "status": "ok"
+            },
+            {
+              "text": "the",
+              "status": "ok"
+            },
+            {
+              "text": "clinic",
+              "status": "ok"
+            },
+            {
+              "text": "yesterday",
+              "status": "extra"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "reschedule",
+              "status": "ok"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "video",
+              "status": "ok"
+            },
+            {
+              "text": "consultation",
+              "status": "ok"
+            }
+          ],
+          "rating": "Gut",
+          "intervalAfterText": "1 Tag",
+          "stateBefore": "learning"
+        }
+      ]
+    },
+    {
+      "id": "0a0165db-683d-4ec4-8ad1-b9ba67d7518a",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Könnten Sie mir bitte zeigen, wie ich meinen Kinnbereich kühlen soll?",
+      "Hint": "Medizinische Handlung",
+      "English": "Could you please show me how to [[apply ice to]] my chin?",
+      "Trap": "Could you please show me, how I am supposed to [[cool]] my chin area in the first days?",
+      "Pattern": "how to + [[apply ice to / ice]] + [Körperteil]",
+      "Transfer1": "You should [[apply ice to]] the swollen area for ten minutes.",
+      "Transfer2": "Remember to [[ice]] your jaw twice a day.",
+      "Rule": "Körperstellen medizinisch kühlen heißt to apply ice to oder to ice, nicht to cool.",
+      "Alternative1": "Could you show me how I should ice my chin area?",
+      "Alternative2": "",
+      "tags": [
+        "vocabulary",
+        "medical",
+        "collocations"
+      ],
+      "srs": {
+        "state": "learning",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-16T09:30:26.841Z"
+      },
+      "history": [
+        {
+          "attemptId": "a4d3af0b-0cc2-4008-86fc-1097f4eeeedc",
+          "shownAt": "2026-10-16T09:29:08.792Z",
+          "submittedAt": "2026-10-16T09:29:22.848Z",
+          "thinkingTimeSeconds": 14.1,
+          "userInput": "Could you please show me how to cool my chin area?",
+          "matchedTarget": "Could you please show me how to apply ice to my chin?",
+          "isExactMatch": false,
+          "diffTokens": [
+            {
+              "text": "Could",
+              "status": "ok"
+            },
+            {
+              "text": "you",
+              "status": "ok"
+            },
+            {
+              "text": "please",
+              "status": "ok"
+            },
+            {
+              "text": "show",
+              "status": "ok"
+            },
+            {
+              "text": "me",
+              "status": "ok"
+            },
+            {
+              "text": "how",
+              "status": "ok"
+            },
+            {
+              "text": "to",
+              "status": "ok"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "apply"
+            },
+            {
+              "text": "",
+              "status": "missing",
+              "expected": "ice"
+            },
+            {
+              "text": "cool",
+              "status": "wrong",
+              "expected": "to"
+            },
+            {
+              "text": "my",
+              "status": "ok"
+            },
+            {
+              "text": "chin",
+              "status": "ok"
+            },
+            {
+              "text": "area",
+              "status": "extra"
+            }
+          ],
+          "rating": "Nochmal",
+          "intervalAfterText": "<1 Min.",
+          "stateBefore": "new"
+        }
+      ]
+    },
+    {
+      "id": "efa2dc25-ee83-4b69-a3b9-f9bbb4014911",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Gibt es hier jemanden, der mir beim Tragen meines Gepäcks helfen kann?",
+      "Hint": "Personenbezug",
+      "English": "Is there anyone [[who can help me carry]] my luggage?",
+      "Trap": "Is there anyone, [[who could help me to transport]] my luggage?",
+      "Pattern": "[anyone / someone] + [[who can help me carry]] + [Nomen]",
+      "Transfer1": "Do you know anyone [[who can help me move]] these boxes?",
+      "Transfer2": "",
+      "Rule": "Kein Komma vor who, und Gepäck transportieren im Reisealltag heißt carry oder with my luggage, nicht transport.",
+      "Alternative1": "Is there anyone who can help me with my luggage?",
+      "Alternative2": "",
+      "tags": [
+        "relative-pronouns",
+        "vocabulary",
+        "travel"
       ],
       "srs": {
         "state": "new",
@@ -52,26 +2283,83 @@
         "easeFactor": 2.3,
         "repetitions": 0,
         "lapses": 0,
-        "dueDate": "2026-10-14T09:03:18.062Z"
+        "dueDate": "2026-10-14T10:46:40.817Z"
       },
       "history": []
     },
     {
-      "id": "a1df05fc-c39f-4ae9-8f04-2cd9540698c1",
-      "createdAt": "2026-10-14T09:03:18.062Z",
-      "German": "Wenn ich mehr Zeit hätte, würde ich Spanisch lernen.",
-      "Hint": "Irreale Bedingung in der Gegenwart",
-      "English": "If I [[had]] more time, I [[would learn]] Spanish.",
-      "Trap": "If I [[would have]] more time, I would learn Spanish.",
-      "Pattern": "If + [[Past Simple]], [Subjekt] + [[would]] + [Infinitiv]",
-      "Transfer1": "If she [[knew]] the answer, she [[would tell]] us.",
+      "id": "6a4cfb1f-f9f1-4ce3-9107-5489908a6acd",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich habe mein Zimmer für fünf Nächte gebucht, aber ich muss möglicherweise meinen Aufenthalt verlängern.",
+      "Hint": "Möglichkeit",
+      "English": "I booked my room for five nights, but I [[might need to extend]] my stay.",
+      "Trap": "I booked my room for 5 nights, but I [[probably need to stay one day longer]].",
+      "Pattern": "[Subjekt] + [[might need to extend]] + [my stay / booking]",
+      "Transfer1": "I [[might need to extend]] my trip if the doctor advises it.",
       "Transfer2": "",
-      "Rule": "Im if-Satz des 2. Konditionals steht nie would, sondern das Past Simple. Das would gehört nur in den Hauptsatz.",
-      "Alternative1": "If I had more time, I'd learn Spanish.",
+      "Rule": "Für eine vorsichtige Notwendigkeit (möglicherweise müssen) ist might need to extend my stay idiomatisch.",
+      "Alternative1": "I booked for five nights, but I may have to stay an extra day.",
+      "Alternative2": "",
+      "tags": [
+        "modal-verbs",
+        "travel",
+        "hotel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "b01fe0b7-c9e8-415a-b6a0-e1336ad7d457",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Früher hatte ich nie Beschwerden beim Kauen oder Sprechen.",
+      "Hint": "Früherer Zustand",
+      "English": "I [[never used to have]] issues with chewing or speaking.",
+      "Trap": "[[In the past I never had]] issues with eating or speaking.",
+      "Pattern": "[Subjekt] + [[never used to have]] + [Nomen]",
+      "Transfer1": "I [[never used to have]] pain in my jaw.",
+      "Transfer2": "He [[used to work]] in a different clinic.",
+      "Rule": "Dauerhafte Zustände oder Gewohnheiten in der Vergangenheit, die heute anders sind, drückt man mit used to aus; Kauen heißt chewing.",
+      "Alternative1": "I never had any problems chewing or speaking before.",
+      "Alternative2": "",
+      "tags": [
+        "idioms",
+        "tenses",
+        "medical"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "537c062a-4ef6-4822-a534-117fca2dedd9",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Was für Risiken gibt es, falls der Muskel nicht richtig anwächst?",
+      "Hint": "Bedingung",
+      "English": "What are the risks [[if the muscle does not reattach]] properly?",
+      "Trap": "What kind of risks are there, [[when the muscle doesn't attach]] properly ?",
+      "Pattern": "What are the risks + [[if]] + [Gewebe] + does not + [Verb]?",
+      "Transfer1": "What happens [[if the bone does not heal]] correctly?",
+      "Transfer2": "",
+      "Rule": "Für Bedingungen (falls) nutzt man if (nicht when); chirurgisches Wiederanwachsen heißt reattach.",
+      "Alternative1": "What risks are there if the muscle fails to heal properly?",
       "Alternative2": "",
       "tags": [
         "conditionals",
-        "second-conditional"
+        "medical",
+        "vocabulary"
       ],
       "srs": {
         "state": "new",
@@ -79,25 +2367,334 @@
         "easeFactor": 2.3,
         "repetitions": 0,
         "lapses": 0,
-        "dueDate": "2026-10-14T09:03:18.062Z"
+        "dueDate": "2026-10-14T10:46:40.817Z"
       },
       "history": []
     },
     {
-      "id": "a6c26b0a-6a9d-4da4-90d6-f98fb0826268",
-      "createdAt": "2026-10-14T09:03:18.062Z",
-      "German": "Ich freue mich darauf, dich nächste Woche zu sehen.",
-      "Hint": "Präposition + Verb",
-      "English": "I [[am looking forward to seeing]] you next week.",
-      "Trap": "I am looking forward [[to see]] you next week.",
-      "Pattern": "[Subjekt] + look forward [[to]] + [[Verb-ing]]",
-      "Transfer1": "We [[are looking forward to hearing]] from you.",
-      "Transfer2": "",
-      "Rule": "Das to in look forward to ist eine Präposition, kein Infinitiv-to – danach folgt deshalb die -ing-Form.",
-      "Alternative1": "I'm looking forward to seeing you next week.",
-      "Alternative2": "I look forward to seeing you next week.",
+      "id": "d27ddbdd-303c-4247-b6d0-efddf2be51ad",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Morgen um diese Zeit werde ich im Flugzeug nach São Paulo sitzen.",
+      "Hint": "Feste Wendung / Zukunft",
+      "English": "[[This time tomorrow]], I [[will be on the plane]] to São Paulo.",
+      "Trap": "[[Tomorrow this time]], I [[will sit in the plane]] to Sao Paulo.",
+      "Pattern": "[[This time tomorrow]], [Subjekt] + [[will be on]] + [Transportmittel]",
+      "Transfer1": "[[This time tomorrow]], I [[will be sitting]] in the consultation room.",
+      "Transfer2": "[[This time next week]], I [[will be flying]] back home.",
+      "Rule": "Die Redewendung lautet This time tomorrow, Transportmittel nutzen on the plane, und laufende Zukunftsakte stehen im Future Continuous.",
+      "Alternative1": "This time tomorrow, I will be flying to São Paulo.",
+      "Alternative2": "",
       "tags": [
-        "gerund",
+        "tenses",
+        "future-continuous",
+        "idioms"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "4c2a098f-a780-4bf0-90ae-cb07d2874d60",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich bezweifle, dass der Arzt den Verband schon vor Freitag abnehmen wird.",
+      "Hint": "",
+      "English": "I [[doubt that]] the doctor will [[remove the dressing]] before Friday.",
+      "Trap": "I [[bezweifle, that]] the doctor will [[take the bandage off]] before friday.",
+      "Pattern": "[Subjekt] + [[doubt that]] + [jemand] + will + [[remove the dressing]]",
+      "Transfer1": "I [[doubt that]] the surgeon will approve the flight so soon.",
+      "Transfer2": "",
+      "Rule": "Bezweifeln heißt to doubt, und der medizinische Wundverband wird fachlich dressing genannt (abnehmen = remove).",
+      "Alternative1": "I don't think the doctor will take off the bandage before Friday.",
+      "Alternative2": "",
+      "tags": [
+        "vocabulary",
+        "medical"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "6deee81b-cb2e-4999-900f-dbc764564ce6",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich lerne Englisch, um mich während meines Aufenthalts verständigen zu können.",
+      "Hint": "Zweck und Zeitangabe",
+      "English": "I am learning English so that I can communicate [[during my stay]].",
+      "Trap": "I am learning englisch, to be able to speak [[while my aufenthalt]].",
+      "Pattern": "[Zwecksatz] + [[during]] + [Nomen / Zeitraum]",
+      "Transfer1": "I need a translator [[during the consultation]].",
+      "Transfer2": "You must rest [[during your recovery]].",
+      "Rule": "Vor einem Nomen heißt während immer during (while verlangt ein Verb), und sich verständigen heißt to communicate.",
+      "Alternative1": "I'm practicing English to communicate properly during my stay in Brazil.",
+      "Alternative2": "",
+      "tags": [
+        "prepositions",
+        "vocabulary",
+        "conjunctions"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "51dfec6f-1ed7-4d90-bcba-54f3d5f9e1c3",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Hast du gestern die Buchungsbestätigung erhalten?",
+      "Hint": "Abgeschlossene Frage",
+      "English": "[[Did you receive]] the [[booking confirmation]] yesterday?",
+      "Trap": "[[Did you received]] the [[buchungsbestätigung]] yesterday?",
+      "Pattern": "[[Did you]] + [Grundform] + [Nomen]?",
+      "Transfer1": "[[Did you get]] the invoice from the clinic?",
+      "Transfer2": "[[Did you sign]] the consent form?",
+      "Rule": "Nach Did you steht das Verb immer in der Grundform (receive, nie received).",
+      "Alternative1": "Did you get the booking confirmation yesterday?",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "past-simple",
+        "questions",
+        "travel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "e86d9f62-929e-487a-a71a-004811d4f7be",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Als ich das Hotelzimmer betrat, hatte der Zimmerservice das Bett bereits gemacht.",
+      "Hint": "Vorvergangenheit & Hotel-Vokabeln",
+      "English": "When I [[entered]] the hotel room, [[housekeeping]] had already [[made]] the bed.",
+      "Trap": "When I [[betrat]] the hotel room, the [[Zimmerservice]] had already [[done]] the bed.",
+      "Pattern": "When + [Past Simple], [Subjekt] + [[had already made]] + the bed",
+      "Transfer1": "When I checked in, [[housekeeping]] had already cleaned the bathroom.",
+      "Transfer2": "",
+      "Rule": "Zimmerreinigung heißt housekeeping (room service bringt nur Essen), und das Bett machen heißt make the bed.",
+      "Alternative1": "When I walked into the hotel room, housekeeping had already made the bed.",
+      "Alternative2": "",
+      "tags": [
+        "vocabulary",
+        "collocations",
+        "hotel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "15a36ed5-3925-4c00-9d3d-9e3ab97c891d",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Mein Reisepass wurde am Flughafen kontrolliert.",
+      "Hint": "Passiv & False Friends",
+      "English": "My [[passport]] was [[checked]] [[at]] the airport.",
+      "Trap": "My [[pass]] was [[controlled]] [[in]] the airport.",
+      "Pattern": "[Dokument] + was + [[checked at]] + [Ort]",
+      "Transfer1": "My boarding pass was [[checked at]] the gate.",
+      "Transfer2": "Our bags were [[checked at]] security.",
+      "Rule": "Reisepass heißt passport, kontrollieren heißt check (control bedeutet steuern), und am Flughafen heißt at the airport.",
+      "Alternative1": "They checked my passport at the airport.",
+      "Alternative2": "",
+      "tags": [
+        "false-friends",
+        "prepositions",
+        "passive",
+        "travel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "6c9a6f7d-41cb-4cac-bd20-e998cda9b594",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Sobald ich am Hotel ankomme, werde ich mich kurz hinlegen.",
+      "Hint": "Sich hinlegen vs. etwas ablegen",
+      "English": "When I arrive at the hotel, I will [[lie down]] for a bit.",
+      "Trap": "When I arrive at the hotel, I will [[lay down]] for a bit.",
+      "Pattern": "When + [Präsens], [Subjekt] + will + [[lie down]]",
+      "Transfer1": "After the surgery, you should [[lie down]] and rest.",
+      "Transfer2": "",
+      "Rule": "Sich selbst hinlegen heißt lie down (lay bedeutet einen Gegenstand ablegen).",
+      "Alternative1": "As soon as I get to the hotel, I'll lie down for a little while.",
+      "Alternative2": "",
+      "tags": [
+        "vocabulary",
+        "verbs",
+        "travel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "d5be51a5-85d8-4c05-8560-f0a6815da826",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich möchte, dass der Arzt sich mein Kinn noch einmal genauer ansieht.",
+      "Hint": "",
+      "English": "I want the doctor to [[take a closer look at]] my chin.",
+      "Trap": "I want the doctor to [[check]] my chin [[genauer]].",
+      "Pattern": "want + [Person] + to + [[take a closer look at]] + [Körperteil]",
+      "Transfer1": "Could you [[take a closer look at]] the sutures?",
+      "Transfer2": "",
+      "Rule": "Sich etwas genauer ansehen heißt idiomatisch take a closer look at oder examine more closely.",
+      "Alternative1": "I want the doctor to examine my chin more closely.",
+      "Alternative2": "",
+      "tags": [
+        "idioms",
+        "medical",
+        "vocabulary"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "cc1fc9c9-c534-410e-859d-6da3b379e886",
+      "createdAt": "2026-10-14T10:46:40.817Z",
+      "German": "Ich gewöhne mich langsam an das warme Wetter hier.",
+      "Hint": "Laufender Prozess",
+      "English": "I [[am getting used to]] the warm weather here.",
+      "Trap": "I [[get used to]] the warm weather here.",
+      "Pattern": "[be] + [[getting used to]] + [Nomen / Verb-ing]",
+      "Transfer1": "I [[am getting used to]] sleeping with my head elevated.",
+      "Transfer2": "He [[is getting used to]] the new climate.",
+      "Rule": "Ein Gewöhnungsprozess, der gerade jetzt stattfindet, steht im Present Continuous (am getting used to).",
+      "Alternative1": "I'm slowly getting used to the warm weather here.",
+      "Alternative2": "",
+      "tags": [
+        "tenses",
+        "present-continuous",
+        "idioms"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-14T10:46:40.817Z"
+      },
+      "history": []
+    },
+    {
+      "id": "b597e575-947c-43de-8081-8205c8d32ef8",
+      "createdAt": "2026-10-16T09:57:41.107Z",
+      "German": "Bist du schon einmal alleine geflogen?",
+      "Hint": "Lebenserfahrung",
+      "English": "[[Have you ever flown]] alone?",
+      "Trap": "[[Did you ever fly]] alone?",
+      "Pattern": "[[Have you ever]] + [3. Form]",
+      "Transfer1": "[[Have you ever traveled]] to South America?",
+      "Transfer2": "[[Have you ever had]] a patient from Germany?",
+      "Rule": "Die Frage nach einer generellen Lebenserfahrung verlangt immer Have you ever + 3. Form, niemals Did you ever.",
+      "Alternative1": "",
+      "Alternative2": "",
+      "tags": [
+        "present-perfect",
+        "questions",
+        "travel"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-16T09:57:41.107Z"
+      },
+      "history": []
+    },
+    {
+      "id": "c1e5e3d0-2b32-4fb6-8ccd-d852a82df4b7",
+      "createdAt": "2026-10-16T09:57:41.108Z",
+      "German": "Ich mache diese Ausbildung nun seit einem Monat.",
+      "Hint": "Dauert bis heute an",
+      "English": "I [[have been doing]] this apprenticeship [[for]] one month.",
+      "Trap": "I [[am doing]] this apprenticeship [[since]] one month.",
+      "Pattern": "[Subjekt] + [[have been doing]] + [Sache] + [[for]] + [Zeitspanne]",
+      "Transfer1": "I [[have been waiting]] here [[for]] two hours.",
+      "Transfer2": "I [[have been working]] there [[for]] three weeks.",
+      "Rule": "Handlungen, die bis heute andauern, stehen im Present Perfect Continuous (have been doing). Zeitspannen verlangen for (nicht since).",
+      "Alternative1": "I've been completing this apprenticeship for a month now.",
+      "Alternative2": "",
+      "tags": [
+        "present-perfect",
+        "prepositions",
+        "work"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-16T09:57:41.108Z"
+      },
+      "history": []
+    },
+    {
+      "id": "c4edf3dd-45b9-487c-8d61-9a4b6ce0db8b",
+      "createdAt": "2026-10-16T09:57:41.108Z",
+      "German": "Ich lerne seit heute Morgen Englisch für meine Reise.",
+      "Hint": "Dauert bis heute an",
+      "English": "I [[have been learning]] English for my trip [[since]] this morning.",
+      "Trap": "I [[am learning]] English for my trip [[since]] this morning.",
+      "Pattern": "[Subjekt] + [[have been learning]] + [Sache] + [[since]] + [Zeitpunkt]",
+      "Transfer1": "I [[have been studying]] [[since]] 8 AM.",
+      "Transfer2": "I [[have been feeling]] pain [[since]] yesterday.",
+      "Rule": "Bei seit plus Startpunkt (heute Morgen) nutzt man Present Perfect Continuous (have been -ing) und since. Niemals I am learning.",
+      "Alternative1": "I've been practicing English for my trip since this morning.",
+      "Alternative2": "",
+      "tags": [
+        "present-perfect",
         "prepositions"
       ],
       "srs": {
@@ -106,26 +2703,26 @@
         "easeFactor": 2.3,
         "repetitions": 0,
         "lapses": 0,
-        "dueDate": "2026-10-14T09:03:18.062Z"
+        "dueDate": "2026-10-16T09:57:41.108Z"
       },
       "history": []
     },
     {
-      "id": "b7e66ae3-8a5a-43d0-84f8-9dfe70893499",
-      "createdAt": "2026-10-14T09:03:18.062Z",
-      "German": "Er hat mir nicht gesagt, wo der Bahnhof ist.",
-      "Hint": "Indirekte Frage",
-      "English": "He didn't tell me [[where the station was]].",
-      "Trap": "He didn't tell me [[where is the station]].",
-      "Pattern": "[Hauptsatz] + [[Fragewort + Subjekt + Verb]]",
-      "Transfer1": "Can you tell me [[what time it is]]?",
-      "Transfer2": "",
-      "Rule": "In indirekten Fragen gilt die normale Satzstellung (Subjekt vor Verb), ohne do/does/did. Nach einem Einleitungssatz in der Vergangenheit wird die Zeit meist zurückversetzt (is → was).",
-      "Alternative1": "He didn't tell me where the station is.",
-      "Alternative2": "He did not tell me where the train station was.",
+      "id": "9c3990f1-bd27-4c60-804c-86eb2bc81ee5",
+      "createdAt": "2026-10-16T09:57:41.108Z",
+      "German": "Sobald ich die Dokumente ausgefüllt habe, schicke ich sie ab.",
+      "Hint": "Sobald etwas abgeschlossen ist",
+      "English": "[[Once I have filled out]] the documents, I will send them.",
+      "Trap": "[[Once I filled out]] the documents, I will send them.",
+      "Pattern": "[[Once]] + [Subjekt] + [[have / has]] + [3. Form]",
+      "Transfer1": "[[Once I have finished]] the report, I will call you.",
+      "Transfer2": "[[Once you have signed]] the form, we can proceed.",
+      "Rule": "Sobald etwas in der Zukunft fertiggestellt ist, drückt man das im Englischen mit Once + Present Perfect (have + 3. Form) aus.",
+      "Alternative1": "As soon as I've filled out the paperwork, I'll send it over.",
+      "Alternative2": "",
       "tags": [
-        "word-order",
-        "indirect-questions"
+        "conjunctions",
+        "future"
       ],
       "srs": {
         "state": "new",
@@ -133,7 +2730,34 @@
         "easeFactor": 2.3,
         "repetitions": 0,
         "lapses": 0,
-        "dueDate": "2026-10-14T09:03:18.062Z"
+        "dueDate": "2026-10-16T09:57:41.108Z"
+      },
+      "history": []
+    },
+    {
+      "id": "bf544019-e02e-4f59-a5bb-a55412668c63",
+      "createdAt": "2026-10-16T09:57:41.108Z",
+      "German": "Sobald die Narbe verheilt ist, werde ich ins Fitnessstudio gehen.",
+      "Hint": "Sobald etwas abgeschlossen ist",
+      "English": "[[Once the scar has healed]], I will go to the gym.",
+      "Trap": "[[Once the scar is healed out]], I will go to the gym.",
+      "Pattern": "[[Once]] + [Sache] + [[has]] + [3. Form]",
+      "Transfer1": "[[Once the swelling has gone down]], you can eat normally.",
+      "Transfer2": "[[Once the anesthesia has worn off]], you can leave.",
+      "Rule": "Für eine abgeschlossene Bedingung in der Zukunft (sobald) nutzt man Once + Present Perfect. Medizinisches Verheilen ist einfach heal.",
+      "Alternative1": "As soon as the scar heals, I'm going to the gym.",
+      "Alternative2": "",
+      "tags": [
+        "medical",
+        "conjunctions"
+      ],
+      "srs": {
+        "state": "new",
+        "intervalDays": 0,
+        "easeFactor": 2.3,
+        "repetitions": 0,
+        "lapses": 0,
+        "dueDate": "2026-10-16T09:57:41.108Z"
       },
       "history": []
     }

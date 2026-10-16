@@ -74,6 +74,12 @@ Format A ist ein kompaktes Markdown (eine Zeile pro Versuch mit Fehlerpaaren wie
 den gefilterten Karten und ihrem (gekürzten) `history` plus `historyTotal`. Beide lassen sich kopieren oder speichern.
 Versuchsnummern beziehen sich immer auf den gesamten Verlauf einer Karte; ausgelassene Versuche werden markiert.
 
+### Diktat-Markierung
+
+Auf der Vorderseite markiert **🎤 Diktiert** (⌘D) den aktuellen Versuch als per Diktier-App gesprochen. Der Versuch
+bekommt `inputMethod: "dictated"` (sonst `"typed"`; ältere Versuche zählen als getippt). Im Markdown-Export stehen
+diktierte Versuche mit `🎤[DIKTIERT]`, die Kopfzeile erklärt die Markierung und nennt die Anzahl.
+
 ### Backup
 
 Einstellungen → **Voll-Backup exportieren** speichert die komplette `database.json`. **Backup wiederherstellen** zeigt
@@ -92,6 +98,7 @@ englischer Satz) übersprungen.
 |---|---|
 | ↵ / ⌘↵ | prüfen / ohne Antwort aufdecken |
 | ⌘⇧H | Hinweis zeigen |
+| ⌘D | Versuch als diktiert markieren |
 | 1–4, ↵ | bewerten, Vorschlag übernehmen |
 | E | Karte bearbeiten |
 | ⌘Z / ⌘⌥Z | letzte Bewertung rückgängig |
@@ -110,3 +117,8 @@ src/lib/           reine Logik (auch in Node testbar): diff.js, srs.js, markup.j
 src/js/            Views: study, cards (Verwaltung), details, editor, aiexport, stats, settings + store/ui
 test/              node:test-Tests
 ```
+
+## Als App starten
+
+`scripts/make-app.sh` erzeugt `Englischkartei.app` auf dem Desktop und in `/Applications`. Die App ist nur ein Starter
+für diesen Projektordner (die Datenbank bleibt `data/database.json`); der Ordner darf deshalb nicht verschoben werden.

@@ -107,7 +107,7 @@ function rowHtml(card) {
     }</div>
     <div class="ct-last">${
       last
-        ? `${last.isExactMatch ? '✅' : '❌'} ${last.userInput ? `<span class="last-input">${renderUserInput(last.diffTokens ?? [])}</span>` : '<span class="muted">(keine Eingabe)</span>'}`
+        ? `${last.isExactMatch ? '✅' : '❌'}${last.inputMethod === 'dictated' ? ' 🎤' : ''} ${last.userInput ? `<span class="last-input">${renderUserInput(last.diffTokens ?? [])}</span>` : '<span class="muted">(keine Eingabe)</span>'}`
         : '<span class="muted">noch nicht geübt</span>'
     }</div>
     <div class="ct-due">${

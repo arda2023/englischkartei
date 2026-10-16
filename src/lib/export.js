@@ -119,11 +119,18 @@ function quote(text) {
   return `"${String(text).replace(/"/g, '\\"')}"`;
 }
 
+export const DICTATED_MARK = '🎤[DIKTIERT]';
+
+/** Versuche ohne Feld `inputMethod` (ältere Daten) gelten als getippt. */
+export function isDictated(attempt) {
+  return attempt?.inputMethod === 'dictated';
+}
+
 /** Eine Zeile pro Versuch im Kompakt-Markdown. */
 export function formatAttemptLine(attempt, number) {
   const time = `${Number(attempt.thinkingTimeSeconds ?? 0).toFixed(1)}s`;
   const head = `${number}. [${fmtSpan(attempt.shownAt, attempt.submittedAt)} (${time})]`;
-  const mark = attempt.isExactMatch ? '✅' : '❌';
+  const mark = `${attempt.isExactMatch ? '✅' : '❌'}${isDictated(attempt) ? ` ${DICTATED_MARK}` : ''}`;
   const input = attempt.userInput ? `Eingabe: ${quote(attempt.userInput)}` : 'Eingabe: (keine – „Weiß nicht“)';
   const parts = [`${head} ${mark} ${input}`];
   if (attempt.userInput && !attempt.isExactMatch) {
@@ -215,9 +222,17 @@ function cardBlock({ card, attempts }, index) {
 }
 
 export function toMarkdown(selection, { filterText = '', now = new Date() } = {}) {
+  const all = selection.entries.flatMap((e) => e.attempts.map((x) => x.attempt));
+  const dictated = all.filter(isDictated).length;
   const header = [
     `# Englisch-Lernverlauf Export (${fmtDate(now)}, ${fmtTime(now).slice(0, 5)})`,
     `Filter: ${filterText || '–'} | Karten: ${selection.entries.length} | Versuche: ${selection.attemptCount}`,
+    ...(dictated
+      ? [
+          `Eingabeart: ${DICTATED_MARK} = Satz wurde gesprochen (per KI-Diktier-App), Zeilen ohne Markierung = getippt. ` +
+            `Diktiert: ${dictated} von ${all.length} Versuchen.`,
+        ]
+      : []),
   ].join('\n');
   const blocks = selection.entries.map((entry, i) => cardBlock(entry, i + 1));
   return [header, ...blocks].join('\n\n') + '\n';
@@ -233,7 +248,7 @@ export function toJson(selection, { filter = {}, now = new Date() } = {}) {
         cards: selection.entries.map(({ card, attempts }) => ({
           ...card,
           historyTotal: card.history.length,
-          history: attempts.map(({ attempt }) => attempt),
+          history: attempts.map(({ attempt }) => ({ ...attempt, inputMethod: isDictated(attempt) ? 'dictated' : 'typed' })),
         })),
       },
       null,

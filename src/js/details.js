@@ -45,6 +45,7 @@ function timeline(card) {
           <span>${weekday}, ${escapeHtml(fmtSpan(a.shownAt, a.submittedAt))}</span>
           <span class="muted">· ${fmtSeconds(a.thinkingTimeSeconds)} Denkzeit</span>
           <span class="spacer"></span>
+          ${a.inputMethod === 'dictated' ? '<span class="dictated-badge" title="Per Diktier-App gesprochen">🎤 diktiert</span>' : ''}
           <span>${a.isExactMatch ? '✅' : '❌'}</span>
           ${ratingPill(a.rating)}
           <span class="muted">→ ${escapeHtml(a.intervalAfterText ?? '')}</span>

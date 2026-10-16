@@ -82,3 +82,19 @@ test('Markdown-Kopf, JSON und Einzelkarte', () => {
   assert.equal(json.cards[0].historyTotal, 1);
   assert.match(cardHistoryMarkdown(c, { pendingAttempt: { ...attempt('x', null), rating: null } }), /2\. .*Bewertung: \(noch nicht bewertet\)/);
 });
+
+test('diktierte Versuche werden im Export markiert, getippte nicht', () => {
+  const good = 'When I arrived at the gate, the other passengers were already boarding.';
+  const spoken = { ...attempt(good, 'Gut'), inputMethod: 'dictated' };
+  const typed = { ...attempt('x', 'Schwer'), inputMethod: 'typed' };
+  const legacy = attempt('y', 'Schwer'); // ohne inputMethod
+  assert.match(formatAttemptLine(spoken, 1), /✅ 🎤\[DIKTIERT\] Eingabe:/);
+  assert.doesNotMatch(formatAttemptLine(typed, 2), /DIKTIERT/);
+  assert.doesNotMatch(formatAttemptLine(legacy, 3), /DIKTIERT/);
+  const sel = buildSelection([card([spoken, typed, legacy])], { scope: 'attempted', compression: 'all' });
+  const md = toMarkdown(sel);
+  assert.match(md, /Eingabeart: 🎤\[DIKTIERT\] = Satz wurde gesprochen.*Diktiert: 1 von 3 Versuchen/);
+  assert.deepEqual(JSON.parse(toJson(sel)).cards[0].history.map((h) => h.inputMethod), ['dictated', 'typed', 'typed']);
+  assert.doesNotMatch(toMarkdown(buildSelection([card([typed])], { scope: 'attempted' })), /Eingabeart/);
+  assert.match(cardHistoryMarkdown(card([typed]), { pendingAttempt: { ...spoken, rating: null } }), /2\. .*🎤\[DIKTIERT\].*noch nicht bewertet/);
+});
