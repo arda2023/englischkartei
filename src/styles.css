@@ -1722,3 +1722,135 @@ table.data tr.clickable:hover td {
   text-transform: none;
   letter-spacing: 0;
 }
+
+/* ------------------------------------------------------------------ Vokabel-Drill */
+
+.container.narrow {
+  max-width: 680px;
+}
+
+.study-header select {
+  width: auto;
+  max-width: 260px;
+}
+
+.vocab-card {
+  text-align: center;
+  padding: 28px 32px 22px;
+}
+
+.vocab-card .card-meta {
+  text-align: left;
+}
+
+.vocab-word {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 26px 0 10px;
+  overflow-wrap: anywhere;
+}
+
+.vocab-answer {
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--ok);
+  min-height: 52px;
+  overflow-wrap: anywhere;
+}
+
+.vocab-answer.hidden {
+  visibility: hidden;
+}
+
+.vocab-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.vocab-buttons.single {
+  grid-template-columns: 1fr;
+}
+
+.vocab-buttons .rate {
+  padding: 16px 8px;
+}
+
+.vocab-buttons .rate .label {
+  font-size: 18px;
+}
+
+.big-btn {
+  justify-content: center;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.vocab-stats {
+  margin-top: 16px;
+}
+
+.removed-list {
+  margin-top: 26px;
+}
+
+.removed-actions {
+  margin: 8px 0;
+}
+
+.vocab-buttons.three {
+  grid-template-columns: 1fr 0.8fr 1fr;
+}
+
+.vocab-buttons.single {
+  gap: 10px;
+}
+
+.remove-btn {
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  border-radius: 10px;
+  padding: 10px 8px;
+  cursor: default;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: var(--text-2);
+}
+
+.remove-btn:hover {
+  background: var(--surface-2);
+  border-color: var(--muted);
+  color: var(--text);
+}
+
+.remove-btn .label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.remove-btn .sub {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.remove-btn kbd {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.vocab-buttons.single .remove-btn {
+  flex-direction: row;
+  padding: 8px;
+  gap: 8px;
+}
+
+.vocab-buttons.single .remove-btn kbd {
+  position: static;
+}

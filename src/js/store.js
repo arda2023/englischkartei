@@ -3,6 +3,7 @@
 
 import { newSrs } from '../lib/srs.js';
 import { stripMarkup } from '../lib/markup.js';
+import { toItem, nextFastStreak, isMastered } from '../lib/vocab.js';
 
 export const TEXT_FIELDS = [
   'German',
@@ -249,4 +250,61 @@ export function importCards(text) {
   }
   if (added) save('import');
   return { added, duplicates, invalid };
+}
+
+// ------------------------------------------------------------------ Vokabeln (Speed-Drill)
+// db.vocab = { items: [...aktive Wörter mit Zählern], removed: [...dauerhaft gelöschte Wörter] }
+
+export function vocab() {
+  return db.vocab ?? null;
+}
+
+/** Übernimmt beim ersten Aufruf die mitgelieferte Liste in die Datenbank. */
+export async function ensureVocab() {
+  if (db.vocab) return;
+  const seed = await window.api.vocabSeed();
+  db.vocab = { items: seed.map(toItem), removed: [] };
+  save('vocab');
+}
+
+/** Speichert eine Antwort und führt die Serie „schnell richtig“ nach. Gibt zurück, ob das Wort damit gelernt ist. */
+export function recordVocabAnswer(id, correct, revealSeconds) {
+  const item = db.vocab?.items.find((i) => i.id === id);
+  if (!item) return false;
+  if (correct) item.right += 1;
+  else item.wrong += 1;
+  item.lastSeen = new Date().toISOString();
+  item.fastStreak = nextFastStreak(item.fastStreak, { correct, revealSeconds });
+  const mastered = isMastered(item.fastStreak);
+  if (mastered) {
+    removeVocab(id, 'mastered');
+  } else {
+    save('vocab');
+  }
+  return mastered;
+}
+
+/** Löscht ein Wort dauerhaft aus dem Training (bleibt unter „Gelöschte Wörter“ wiederherstellbar). */
+export function removeVocab(id, reason = 'known') {
+  const index = db.vocab?.items.findIndex((i) => i.id === id) ?? -1;
+  if (index === -1) return null;
+  const [item] = db.vocab.items.splice(index, 1);
+  db.vocab.removed.push({ ...item, removedAt: new Date().toISOString(), removedReason: reason });
+  save('vocab');
+  return item;
+}
+
+export function restoreVocab(id) {
+  const index = db.vocab?.removed.findIndex((i) => i.id === id) ?? -1;
+  if (index === -1) return;
+  const { removedAt, removedReason, ...item } = db.vocab.removed.splice(index, 1)[0];
+  db.vocab.items.push({ ...item, fastStreak: 0 });
+  save('vocab');
+}
+
+export function restoreAllVocab() {
+  if (!db.vocab) return;
+  for (const { removedAt, removedReason, ...item } of db.vocab.removed) db.vocab.items.push({ ...item, fastStreak: 0 });
+  db.vocab.removed = [];
+  save('vocab');
 }

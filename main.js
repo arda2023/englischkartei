@@ -117,6 +117,9 @@ function registerIpc() {
 
   ipcMain.handle('db:path', () => DB_PATH);
 
+  // Mitgelieferte Vokabelliste (wird beim ersten Öffnen des Vokabel-Reiters in die Datenbank übernommen).
+  ipcMain.handle('vocab:seed', async () => JSON.parse(await fsp.readFile(path.join(DATA_DIR, 'vocab-seed.json'), 'utf8')));
+
   ipcMain.handle('db:reveal', () => shell.showItemInFolder(DB_PATH));
 
   ipcMain.handle('file:import', async (event) => {
@@ -257,7 +260,8 @@ function buildMenu() {
         cmd('Lernen', 'CmdOrCtrl+1', 'view-study'),
         cmd('Karten', 'CmdOrCtrl+2', 'view-cards'),
         cmd('Statistik', 'CmdOrCtrl+3', 'view-stats'),
-        cmd('Einstellungen', 'CmdOrCtrl+4', 'view-settings'),
+        cmd('Vokabeln', 'CmdOrCtrl+4', 'view-vocab'),
+        cmd('Einstellungen', 'CmdOrCtrl+5', 'view-settings'),
         { type: 'separator' },
         cmd('Karten durchsuchen', 'CmdOrCtrl+F', 'find'),
         { type: 'separator' },

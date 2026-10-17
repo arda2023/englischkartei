@@ -74,6 +74,17 @@ Format A ist ein kompaktes Markdown (eine Zeile pro Versuch mit Fehlerpaaren wie
 den gefilterten Karten und ihrem (gekürzten) `history` plus `historyTotal`. Beide lassen sich kopieren oder speichern.
 Versuchsnummern beziehen sich immer auf den gesamten Verlauf einer Karte; ausgelassene Versuche werden markiert.
 
+### Vokabel-Speed-Drill (Reiter „Vokabeln“, ⌘4)
+
+500 Wörter (`data/vocab-seed.json`: Kiefer-OP, Reise, Arzt & Klinik, Alltag, Satzverbindungen) werden beim ersten Öffnen
+in die Datenbank übernommen. Deutsches Wort erscheint → **Leertaste** löst auf → **←** falsch / **→** richtig.
+Die Wörter kommen quer durch alle Kategorien gemischt (die Kategorie wechselt bei jedem Wort), oft falsche Wörter öfter,
+sicher gewusste seltener. Oben lässt sich auch eine einzelne Kategorie wählen.
+
+**🗑️ Kenne ich** (Knopf zwischen Falsch und Richtig, Taste **↓** oder ⌘⌫) nimmt ein Wort dauerhaft aus dem Training. Außerdem verschwindet ein Wort automatisch, wenn du es **3× hintereinander innerhalb von 5 Sekunden auflöst und „Richtig“ drückst** (eine falsche oder langsame Antwort setzt die Serie zurück; unter „Gelöschte Wörter“ als „gelernt“ markiert). Es bleibt dauerhaft weg (auch nach Neustart),
+lässt sich aber unter „Gelöschte Wörter“ einzeln oder gesammelt wiederherstellen; direkt nach dem Löschen gibt es „Rückgängig“.
+Alles liegt in `db.vocab` (`items` mit Richtig/Falsch-Zählern, `removed`) und ist im Voll-Backup enthalten.
+
 ### Diktat-Markierung
 
 Auf der Vorderseite markiert **🎤 Diktiert** (⌘D) den aktuellen Versuch als per Diktier-App gesprochen. Der Versuch
@@ -102,7 +113,7 @@ englischer Satz) übersprungen.
 | 1–4, ↵ | bewerten, Vorschlag übernehmen |
 | E | Karte bearbeiten |
 | ⌘Z / ⌘⌥Z | letzte Bewertung rückgängig |
-| ⌘1–4 | Lernen · Karten · Statistik · Einstellungen |
+| ⌘1–5 | Lernen · Karten · Statistik · Vokabeln · Einstellungen |
 | ⌘N / ⌘F / ⌘I / ⌘⇧E | neue Karte / suchen / importieren / Voll-Backup exportieren |
 | ⌘⇧K | KI-Export (mit aktueller Auswahl) |
 
